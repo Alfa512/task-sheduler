@@ -1,0 +1,6 @@
+.calendar {
+    background-image: url(/images/cal.png) !important;
+    background-position: left center !important;
+    background-repeat: no-repeat !important;
+    background-size: 10% !important;
+}

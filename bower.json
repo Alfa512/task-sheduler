@@ -1,0 +1,61 @@
+{
+  "name": "scheduler-ng",
+  "authors": [
+    "Yury Tvardosky <oziabr@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.19.3",
+    "jquery": "^3.2.1",
+    "angular": "^1.6.7",
+    "angular-animate": "^1.6.7",
+    "angular-sanitize": "^1.6.7",
+    "angular-messages": "^1.6.7",
+    "angular-ui-router": "^1.0.11",
+    "angular-material": "^1.1.5",
+    "angular-toastr": "^2.1.1",
+    "animate.css": "^3.5.2",
+    "components-font-awesome": "^4.7.0",
+    "materialize": "^0.100.2",
+    "angular-resizable": "^1.2.0",
+    "angular-audio": "^1.7.4",
+    "videogular": "^1.4.4",
+    "videogular-themes-default": "^1.4.4",
+    "videogular-controls": "^1.4.4",
+    "videogular-buffering": "^1.4.4",
+    "videogular-overlay-play": "^1.4.4",
+    "videogular-poster": "^1.4.4",
+    "videogular-ima-ads": "^1.4.4",
+    "videogular-angulartics": "^1.4.4",
+    "angular-drag-and-drop-lists": "^2.1.0"
+  },
+  "resolutions": {
+    "angular": ">= 1.1.5"
+  },
+  "overrides": {
+    "angular-resizable": {
+      "main": [
+        "src/angular-resizable.js",
+        "src/angular-resizable.css"
+      ]
+    },
+    "components-font-awesome": {
+      "main": [
+        "./css/font-awesome.css",
+        "./fonts/*"
+      ]
+    }
+  }
+}
